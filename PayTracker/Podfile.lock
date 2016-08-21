@@ -1,0 +1,15 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - ObjectMapper (1.1.5)
+
+DEPENDENCIES:
+  - FMDB (= 2.6.2)
+  - ObjectMapper (= 1.1.5)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+
+COCOAPODS: 0.39.0

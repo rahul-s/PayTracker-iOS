@@ -7,14 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55509E2A860FA90D8765420B /* Pods_PayTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB962777689B90C30BDECD33 /* Pods_PayTracker.framework */; };
 		B707B67C1D69CF8800FA0826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707B67B1D69CF8800FA0826 /* AppDelegate.swift */; };
 		B707B67E1D69CF8800FA0826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707B67D1D69CF8800FA0826 /* ViewController.swift */; };
 		B707B6811D69CF8800FA0826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B707B67F1D69CF8800FA0826 /* Main.storyboard */; };
 		B707B6831D69CF8800FA0826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B707B6821D69CF8800FA0826 /* Assets.xcassets */; };
 		B707B6861D69CF8800FA0826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B707B6841D69CF8800FA0826 /* LaunchScreen.storyboard */; };
+		B707B6961D69E18000FA0826 /* DatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707B6951D69E18000FA0826 /* DatabaseProtocol.swift */; };
+		B707B6981D69E26300FA0826 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707B6971D69E26300FA0826 /* DatabaseManager.swift */; };
+		B77A5B491D6A01EC00989E66 /* RepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B481D6A01EC00989E66 /* RepositoryProtocol.swift */; };
+		B77A5B4B1D6A020700989E66 /* FMDBImplementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B4A1D6A020700989E66 /* FMDBImplementation.swift */; };
+		B77A5B511D6A094600989E66 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B501D6A094600989E66 /* BaseModel.swift */; };
+		B77A5B531D6A0A4500989E66 /* PersonRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B521D6A0A4500989E66 /* PersonRepository.swift */; };
+		B77A5B551D6A0AE400989E66 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B541D6A0AE400989E66 /* Person.swift */; };
+		B77A5B571D6A0BE800989E66 /* Outing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B561D6A0BE800989E66 /* Outing.swift */; };
+		B77A5B5B1D6A0D8C00989E66 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B5A1D6A0D8C00989E66 /* Expense.swift */; };
+		B77A5B5D1D6A129000989E66 /* OutingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B5C1D6A129000989E66 /* OutingRepository.swift */; };
+		B77A5B611D6A191D00989E66 /* OutingPersonsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B601D6A191D00989E66 /* OutingPersonsRepository.swift */; };
+		B77A5B631D6A1AF800989E66 /* ExpenseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B621D6A1AF800989E66 /* ExpenseRepository.swift */; };
+		B77A5B651D6A2A9A00989E66 /* ExpensePersonsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B641D6A2A9A00989E66 /* ExpensePersonsRepository.swift */; };
+		B77A5B671D6A2D7A00989E66 /* PayTrackerDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B77A5B661D6A2D7A00989E66 /* PayTrackerDB.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		786709637EA0C97727A74866 /* Pods-PayTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayTracker/Pods-PayTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		B707B6781D69CF8800FA0826 /* PayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B707B67B1D69CF8800FA0826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B707B67D1D69CF8800FA0826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +38,22 @@
 		B707B6821D69CF8800FA0826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B707B6851D69CF8800FA0826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B707B6871D69CF8800FA0826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B707B6951D69E18000FA0826 /* DatabaseProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseProtocol.swift; sourceTree = "<group>"; };
+		B707B6971D69E26300FA0826 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		B77A5B481D6A01EC00989E66 /* RepositoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryProtocol.swift; sourceTree = "<group>"; };
+		B77A5B4A1D6A020700989E66 /* FMDBImplementation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMDBImplementation.swift; sourceTree = "<group>"; };
+		B77A5B501D6A094600989E66 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		B77A5B521D6A0A4500989E66 /* PersonRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonRepository.swift; sourceTree = "<group>"; };
+		B77A5B541D6A0AE400989E66 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B77A5B561D6A0BE800989E66 /* Outing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Outing.swift; sourceTree = "<group>"; };
+		B77A5B5A1D6A0D8C00989E66 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		B77A5B5C1D6A129000989E66 /* OutingRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingRepository.swift; sourceTree = "<group>"; };
+		B77A5B601D6A191D00989E66 /* OutingPersonsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutingPersonsRepository.swift; sourceTree = "<group>"; };
+		B77A5B621D6A1AF800989E66 /* ExpenseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseRepository.swift; sourceTree = "<group>"; };
+		B77A5B641D6A2A9A00989E66 /* ExpensePersonsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensePersonsRepository.swift; sourceTree = "<group>"; };
+		B77A5B661D6A2D7A00989E66 /* PayTrackerDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PayTrackerDB.sqlite; sourceTree = "<group>"; };
+		CB962777689B90C30BDECD33 /* Pods_PayTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF96D66F4F63B8CC9F0EEF3D /* Pods-PayTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTracker/Pods-PayTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55509E2A860FA90D8765420B /* Pods_PayTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA46C5372CAAF7320F68DA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB962777689B90C30BDECD33 /* Pods_PayTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22801F9DA03A27A52AD38BF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				786709637EA0C97727A74866 /* Pods-PayTracker.debug.xcconfig */,
+				EF96D66F4F63B8CC9F0EEF3D /* Pods-PayTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B707B66F1D69CF8800FA0826 = {
 			isa = PBXGroup;
 			children = (
 				B707B67A1D69CF8800FA0826 /* PayTracker */,
 				B707B6791D69CF8800FA0826 /* Products */,
+				22801F9DA03A27A52AD38BF1 /* Pods */,
+				0EA46C5372CAAF7320F68DA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +107,99 @@
 			isa = PBXGroup;
 			children = (
 				B707B67B1D69CF8800FA0826 /* AppDelegate.swift */,
-				B707B67D1D69CF8800FA0826 /* ViewController.swift */,
-				B707B67F1D69CF8800FA0826 /* Main.storyboard */,
-				B707B6821D69CF8800FA0826 /* Assets.xcassets */,
-				B707B6841D69CF8800FA0826 /* LaunchScreen.storyboard */,
+				B707B68D1D69DA8F00FA0826 /* Models */,
+				B707B6901D69DAAE00FA0826 /* Managers */,
+				B707B6911D69DAB400FA0826 /* WebServices */,
+				B707B68F1D69DAA000FA0826 /* Database */,
+				B707B6921D69DAC700FA0826 /* Views */,
+				B707B6941D69DB0500FA0826 /* Resources */,
 				B707B6871D69CF8800FA0826 /* Info.plist */,
 			);
 			path = PayTracker;
+			sourceTree = "<group>";
+		};
+		B707B68D1D69DA8F00FA0826 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B77A5B501D6A094600989E66 /* BaseModel.swift */,
+				B77A5B541D6A0AE400989E66 /* Person.swift */,
+				B77A5B561D6A0BE800989E66 /* Outing.swift */,
+				B77A5B5A1D6A0D8C00989E66 /* Expense.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B707B68E1D69DA9600FA0826 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B707B67D1D69CF8800FA0826 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B707B68F1D69DAA000FA0826 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B77A5B471D6A01C100989E66 /* Common */,
+				B77A5B521D6A0A4500989E66 /* PersonRepository.swift */,
+				B77A5B5C1D6A129000989E66 /* OutingRepository.swift */,
+				B77A5B601D6A191D00989E66 /* OutingPersonsRepository.swift */,
+				B77A5B621D6A1AF800989E66 /* ExpenseRepository.swift */,
+				B77A5B641D6A2A9A00989E66 /* ExpensePersonsRepository.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		B707B6901D69DAAE00FA0826 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		B707B6911D69DAB400FA0826 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = WebServices;
+			sourceTree = "<group>";
+		};
+		B707B6921D69DAC700FA0826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B707B6931D69DAF300FA0826 /* Storyboards */,
+				B707B68E1D69DA9600FA0826 /* ViewControllers */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B707B6931D69DAF300FA0826 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B707B6841D69CF8800FA0826 /* LaunchScreen.storyboard */,
+				B707B67F1D69CF8800FA0826 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B707B6941D69DB0500FA0826 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B77A5B661D6A2D7A00989E66 /* PayTrackerDB.sqlite */,
+				B707B6821D69CF8800FA0826 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B77A5B471D6A01C100989E66 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B707B6951D69E18000FA0826 /* DatabaseProtocol.swift */,
+				B707B6971D69E26300FA0826 /* DatabaseManager.swift */,
+				B77A5B481D6A01EC00989E66 /* RepositoryProtocol.swift */,
+				B77A5B4A1D6A020700989E66 /* FMDBImplementation.swift */,
+			);
+			name = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B707B68A1D69CF8800FA0826 /* Build configuration list for PBXNativeTarget "PayTracker" */;
 			buildPhases = (
+				B757A057C6BF8D5267CACE84 /* Check Pods Manifest.lock */,
 				B707B6741D69CF8800FA0826 /* Sources */,
 				B707B6751D69CF8800FA0826 /* Frameworks */,
 				B707B6761D69CF8800FA0826 /* Resources */,
+				7544C73D48624ABE8565890B /* Embed Pods Frameworks */,
+				EF1DE1CD945BEEE25001FD3B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +266,80 @@
 				B707B6861D69CF8800FA0826 /* LaunchScreen.storyboard in Resources */,
 				B707B6831D69CF8800FA0826 /* Assets.xcassets in Resources */,
 				B707B6811D69CF8800FA0826 /* Main.storyboard in Resources */,
+				B77A5B671D6A2D7A00989E66 /* PayTrackerDB.sqlite in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7544C73D48624ABE8565890B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayTracker/Pods-PayTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B757A057C6BF8D5267CACE84 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF1DE1CD945BEEE25001FD3B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayTracker/Pods-PayTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B707B6741D69CF8800FA0826 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B77A5B611D6A191D00989E66 /* OutingPersonsRepository.swift in Sources */,
+				B77A5B5B1D6A0D8C00989E66 /* Expense.swift in Sources */,
+				B77A5B531D6A0A4500989E66 /* PersonRepository.swift in Sources */,
+				B77A5B491D6A01EC00989E66 /* RepositoryProtocol.swift in Sources */,
+				B77A5B5D1D6A129000989E66 /* OutingRepository.swift in Sources */,
+				B77A5B651D6A2A9A00989E66 /* ExpensePersonsRepository.swift in Sources */,
+				B707B6981D69E26300FA0826 /* DatabaseManager.swift in Sources */,
+				B77A5B511D6A094600989E66 /* BaseModel.swift in Sources */,
 				B707B67E1D69CF8800FA0826 /* ViewController.swift in Sources */,
 				B707B67C1D69CF8800FA0826 /* AppDelegate.swift in Sources */,
+				B77A5B551D6A0AE400989E66 /* Person.swift in Sources */,
+				B77A5B4B1D6A020700989E66 /* FMDBImplementation.swift in Sources */,
+				B707B6961D69E18000FA0826 /* DatabaseProtocol.swift in Sources */,
+				B77A5B631D6A1AF800989E66 /* ExpenseRepository.swift in Sources */,
+				B77A5B571D6A0BE800989E66 /* Outing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +452,7 @@
 		};
 		B707B68B1D69CF8800FA0826 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786709637EA0C97727A74866 /* Pods-PayTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayTracker/Info.plist;
@@ -260,6 +464,7 @@
 		};
 		B707B68C1D69CF8800FA0826 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF96D66F4F63B8CC9F0EEF3D /* Pods-PayTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PayTracker/Info.plist;
@@ -288,6 +493,7 @@
 				B707B68C1D69CF8800FA0826 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
