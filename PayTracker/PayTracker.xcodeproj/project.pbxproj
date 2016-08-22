@@ -27,6 +27,7 @@
 		B77A5B631D6A1AF800989E66 /* ExpenseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B621D6A1AF800989E66 /* ExpenseRepository.swift */; };
 		B77A5B651D6A2A9A00989E66 /* ExpensePersonsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77A5B641D6A2A9A00989E66 /* ExpensePersonsRepository.swift */; };
 		B77A5B671D6A2D7A00989E66 /* PayTrackerDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B77A5B661D6A2D7A00989E66 /* PayTrackerDB.sqlite */; };
+		B7CEBF121D6B746300857B79 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7CEBF111D6B746300857B79 /* LoginManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		B77A5B621D6A1AF800989E66 /* ExpenseRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseRepository.swift; sourceTree = "<group>"; };
 		B77A5B641D6A2A9A00989E66 /* ExpensePersonsRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensePersonsRepository.swift; sourceTree = "<group>"; };
 		B77A5B661D6A2D7A00989E66 /* PayTrackerDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = PayTrackerDB.sqlite; sourceTree = "<group>"; };
+		B7CEBF111D6B746300857B79 /* LoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
 		CB962777689B90C30BDECD33 /* Pods_PayTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF96D66F4F63B8CC9F0EEF3D /* Pods-PayTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayTracker/Pods-PayTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,6 +155,7 @@
 		B707B6901D69DAAE00FA0826 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				B7CEBF111D6B746300857B79 /* LoginManager.swift */,
 			);
 			name = Managers;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B77A5B611D6A191D00989E66 /* OutingPersonsRepository.swift in Sources */,
+				B7CEBF121D6B746300857B79 /* LoginManager.swift in Sources */,
 				B77A5B5B1D6A0D8C00989E66 /* Expense.swift in Sources */,
 				B77A5B531D6A0A4500989E66 /* PersonRepository.swift in Sources */,
 				B77A5B491D6A01EC00989E66 /* RepositoryProtocol.swift in Sources */,
